@@ -1,5 +1,6 @@
 ## ANSIBLE CONFIGURATION MANAGEMENT – AUTOMATE PROJECT 7 TO 10
 
+![image](https://github.com/ettebaDwop/dareyProject11/assets/7973831/a38ab1f6-e682-4185-bffa-2b7331e24ba1)
 
 
 ### Task
