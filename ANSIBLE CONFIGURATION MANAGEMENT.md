@@ -9,7 +9,11 @@ In this Project will make use of DevOps tools to auotmate most of the routine ta
 
 ![image](https://github.com/ettebaDwop/dareyProject11/assets/7973831/a38ab1f6-e682-4185-bffa-2b7331e24ba1)
 
+
+
 Bastion server ideology *** ![image](https://github.com/ettebaDwop/dareyProject11/assets/7973831/cf4008de-4b30-48d1-bcc3-3a07ba034c47)  ***
+
+
 
 ### Task
 - Install and configure Ansible client to act as a Jump Server/Bastion Host
@@ -31,11 +35,23 @@ sudo apt install ansible
   
 ` ansible --version `
 
-4. Configure Jenkins build job to save your repository content every time you change it – this will solidify your Jenkins configuration skills acquired in Project 9.
+
+![Screenshot (636)](https://github.com/ettebaDwop/dareyProject11/assets/7973831/d7798f28-5144-4a1b-a3ba-fded811e186a)
+
+
+
+4. Configure Jenkins build job to save your repository content every time a change is made.
 
 * Create a new Freestyle project ansible in Jenkins and point it to your ‘ansible-config-mgt’ repository.
 * Configure Webhook in GitHub and set webhook to trigger ansible build.
-* Configure a Post-build job to save all (**) files, like you did it in Project 9.
+* Configure a Post-build job to save all (**) files.
 5. Test your setup by making some change in README.MD file in master branch and make sure that builds starts automatically and Jenkins saves the files (build artifacts) in following folder
 
 `ls /var/lib/jenkins/jobs/ansible/builds/<build_number>/archive/`
+
+![image](https://github.com/ettebaDwop/dareyProject11/assets/7973831/bf625200-b926-4582-9479-6ed489827df9)
+
+
+
+![Screenshot (672)](https://github.com/ettebaDwop/dareyProject11/assets/7973831/7ca9055d-4aa9-42ba-aafb-ff02c8e415a2)
+
