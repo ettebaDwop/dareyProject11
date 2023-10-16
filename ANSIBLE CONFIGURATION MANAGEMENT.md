@@ -1,14 +1,15 @@
 ## ANSIBLE CONFIGURATION MANAGEMENT – AUTOMATE PROJECT 7 TO 10
 ### Project Overview
 
-****You have been implementing some interesting projects up untill now, and that is awesome.
 
-In Projects 7 to 10 you had to perform a lot of manual operations to seet up virtual servers, install and configure required software, deploy your web application.
 
-This Project will make you appreciate DevOps tools even more by making most of the routine tasks automated with Ansible Configuration Management, at the same time you will become confident at writing code using declarative language such as YAML.****REVISE PLEASE!!
+In Projects 7 to 10 we performed a lot of manual operations to set up our virtual servers, install and configure required software anddeploy your web application.
+
+In this Project will make use of DevOps tools to auotmate most of the routine tasks. This will be implemented using Ansible Configuration Management. The desired architecture would be similar to the diagram below:
 
 ![image](https://github.com/ettebaDwop/dareyProject11/assets/7973831/a38ab1f6-e682-4185-bffa-2b7331e24ba1)
 
+Bastion server ideology *** ![image](https://github.com/ettebaDwop/dareyProject11/assets/7973831/cf4008de-4b30-48d1-bcc3-3a07ba034c47)  ***
 
 ### Task
 - Install and configure Ansible client to act as a Jump Server/Bastion Host
